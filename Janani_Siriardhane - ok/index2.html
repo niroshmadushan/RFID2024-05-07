@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />    
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        
+        <video autoplay muted loop id="video-background">
+            <source src="./video.mp4" type="video/mp4">
+            <!-- Add other video formats here if needed -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="shdbx animate__animated animate__bounceIn">
+            
+            <div class="main">
+                <div class="top">
+                    <img src="Janani_Siriardhane.jpg"></img>
+                    <div class="name"> <h3> Janani
+                        Siriwardhana</h3><h4><b>Director at CONNEX HQ</b></h4></div>
+                 
+                    <div class="abt"><h3></h3><p>
+                        </p></div>
+                </div>
+                
+            </div>
+            <div class="dat">
+                <div class="cinfo">
+                                         
+<img class="cnimg" src="./Connex-Logo 02.png">
+              
+                    <p>No 286,<br>
+                        R. A. De Mel Mawatha,<br>
+                        Colombo 00300,<br>
+                        Sri Lanka,<br>
+                        Email : janani@connexit.biz </p>
+                        
+                        <button class="sendemail" onclick="sendEmail()">Send Email to me</button>
+
+                </div>
+
+               
+                
+                    <script>
+                    function sendEmail() {
+                    // Specify the recipient email address
+                    var recipientEmail = "janani@connexit.biz"; // =======================email
+
+                    // Create a mailto link with the recipient email address
+                    var mailtoLink = "mailto:" + recipientEmail;
+
+                    // Open the mail client with the mailto link
+                    window.location.href = mailtoLink;
+                    }
+                    </script>
+                <div class="bar">
+                    <div class="sm1 sm">
+                        <a href="https://www.facebook.com/connexinformationtechnologies/">
+                            <img src="icons8-facebook-48.png"></img></a>
+                    </div>
+                    <div class="sm2 sm">
+                        <a href="https://www.instagram.com/connexinformationtechnologies">
+                        <img src="icons8-instagram-48 (2).png"></img>
+                    </div>
+                    <div class="sm3 sm">
+                        <a href="https://lk.linkedin.com/company/connexinformationtechnologies">
+                        <img src="icons8-linkedin-50.png"></img></a>
+                    </div>
+                    <div class="sm4 sm">
+                        <img src="icons8-whatsapp-48.png" onclick="openWhatsApp()"></img>
+                    </div>
+                    <script>
+                        function openWhatsApp() {
+                         
+                          var phoneNumber = '0773524134'; 
+                          var message = 'Hello!'; 
+                        
+                          // Create WhatsApp URL
+                          var url = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
+                        
+                          // Open WhatsApp in a new tab
+                          window.open(url, '_blank');
+                        }
+                        </script>
+                </div>
+                <div class="bar2">
+                    
+                        Hi! <br>Set and execute a winning vision for “Tomorrow”.</p>
+                </div>
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+ 
+    </body>
+</html>
