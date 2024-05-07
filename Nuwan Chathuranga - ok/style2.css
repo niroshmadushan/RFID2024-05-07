@@ -1,0 +1,203 @@
+
+body, html {
+   
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto; /* Ensure the video covers the entire body */
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: 100%;
+    height: 90%;
+    z-index: -1000;
+    object-fit: cover;
+    
+}
+
+
+#content {
+   
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.main{
+    margin: auto;
+    width: 320px;
+    height: 550px;
+    background-color: rgba(80, 7, 143, 0.901);
+    border-radius: 25px 25px 25px 25px;
+   
+    
+}
+.space{
+    height: 8%;
+}
+.main .top{
+    margin-left: 1.5%;
+    margin-top: 5%;
+    width: 90%;
+    height: 92.5%;
+    background-color: rgba(54, 3, 99, 0.616);
+    border-radius: 25px 25px 25px 25px;
+    float: left;
+    padding: 10px;
+    
+}
+.main .top .shaml{
+    width: 100px;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.559) 0px 5px 15px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 100;
+    }
+
+.main .top .wdata{
+    width: 235px;
+    height: 130px;
+    background-color: #0303493e;
+    margin-left: 60px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-top: 15px;
+
+
+}
+.name{
+    
+    z-index: 100;
+   margin-left: 50px;
+    width: 180px;
+    font-size: small;
+    float: left;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.name h3{
+    color: #fff;
+    font-size: 16px;
+}
+.name h4{
+    color: #ffffff;
+    font-size: smaller;
+    font-weight: 100;
+}
+.cinfo{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+    background-color: #ffffffaa;
+    padding: 10px;
+    text-align: center;
+}
+.cinfo2{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 260px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffffffaa;
+    padding: 10px;
+    text-align: center;
+}
+.wdata .con{
+    width: 100px;
+   
+    background-color: #ffffff20;
+    margin-top: -10px;
+    margin-left: -70px;
+}
+.sendemail{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #463072;
+    color: white;
+   margin-bottom: 5px;
+    margin-top: 0px;
+    
+}
+.sendemail:hover{
+    background-color:rgba(255, 255, 255, 0.275) ;
+    color: #463072;
+    cursor: pointer;
+    transform: scale(0.95);
+    font-weight: bold;
+    border: 1px solid #463072;;
+}
+.sendemail:active{
+    transform: scale(0.9);
+    
+}
+.con{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -40px;
+    background-color: #dc06eb40;
+    border-radius: 8px;
+}
+.bardown{
+    width: 260px;
+    margin-left: 1px;
+    border-radius: 15px;
+    
+}
+.cinfo2 .sm {
+    float: left;
+    bottom: 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    
+}
+.cinfo2 .sm:hover {
+    box-shadow: rgb(118, 0, 245) 0px 5px 15px;
+    transform: scale(1.1);
+}
+.cinfo2 .sm:active{
+    transform: scale(0.95);
+}
+.cinfo2 .sm1 {
+    margin-left: 65px;
+}
+.cinfo2 .sm2 {
+    margin-left: 10px;
+}
+.cinfo2 .sm3 {   
+    margin-left: 10px;
+}
+.cinfo2 .sm4 {
+    margin-left: 10px;
+}
+.cinfo2 .sm1 img{
+    width:25px;
+
+}
+.cinfo2 .sm2  img{
+    width:25px;
+
+}
+.cinfo2 .sm3  img{
+    width:25px;
+
+}
+.cinfo2 .sm4 img{
+    width:25px;
+
+}

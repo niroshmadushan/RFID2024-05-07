@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />    
+        <link rel="stylesheet" href="style2.css">
+ 	<script src="save.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <video autoplay muted loop id="video-background">
+            <source src="./video.mp4" type="video/mp4">
+            <!-- Add other video formats here if needed -->
+            Your browser does not support the video tag.
+        </video>
+        <div class="space"></div>
+        <div class="shdbx animate__animated animate__bounceIn">
+           
+            <div class="main container">
+                <div class="top">
+                    <img class="shaml" src="WhatsApp Image 2024-04-03 at 09.23.28_062ff535 copy.jpg"></img> <!-- ==== img-->
+                    <div class="wdata">
+                        <div class="name"> <h3> Sameera weerarathne</h3><h4><b>Business Unit Head - Strategic technology</b></h4>
+                        </div>
+                          
+                    </div>
+                    <img src="./Connex-Logo 02.png" class="con">
+                   
+                    <div class="cinfo">
+                        <p>No 286,<br>
+                            R. A. De Mel Mawatha,<br>
+                            Colombo 00300,<br>
+                            Sri Lanka,<br>
+                            Email : sameera@connexit.biz </p>
+                            
+                            <button class="sendemail" onclick="sendEmail()">Send Email to me</button>
+                            <button class="sendEmail" onclick="callNumber('+94777170475')">Get Call Now</button><!-- ==== number-->
+
+                           <button onclick="downloadAndOpenVCard()" class="sendEmail">Save Contact</button>
+                           
+
+                    </div>
+                    <div class="cinfo2">
+                        <div class="sm1 sm">
+                            <a href="https://www.facebook.com/connexinformationtechnologies/">
+                            <img src="icons8-facebook-48.png"></img></a>
+                        </div>
+                        <div class="sm2 sm">
+                            <a href="https://www.instagram.com/connexinformationtechnologies">
+                                <img src="icons8-instagram-48 (2).png"></img>
+                        </div>
+                        <div class="sm3 sm">
+                            <a href="https://lk.linkedin.com/company/connexinformationtechnologies">
+                                <img src="icons8-linkedin-50.png"></img></a>
+                        </div>
+                        <div class="sm4 sm">
+                            <img src="icons8-whatsapp-48.png" onclick="openWhatsApp()"></img>
+                        </div>
+                        <script>
+                            function openWhatsApp() {
+                             
+                              var phoneNumber = '+94777170475'; // =======change whatspp number
+                              var message = 'Hello!'; 
+                            
+                             
+                              var url = 'https://wa.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
+                            
+                            
+                              window.open(url, '_blank');
+                            }
+                            </script>
+                    </div>
+                    
+                        <script>
+                            function callNumber(phoneNumber) {
+                                window.location.href = "tel:" + phoneNumber;
+                            }
+                        function sendEmail() {
+                        
+                        var recipientEmail = "sameera@connexit.biz"; // ===change emaile
+    
+                        
+                        var mailtoLink = "mailto:" + recipientEmail;
+    
+                        
+                        window.location.href = mailtoLink;
+                        }
+                       
+                        
+                        </script>
+                    
+                </div>
+                
+                 
+                
+            </div>
+           
+        
+    </body>
+</html>

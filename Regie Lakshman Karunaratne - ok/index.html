@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Device Detection Redirect</title>
+<script>
+    // Function to detect the device type
+    function detectDevice() {
+        // Check if the device width is less than or equal to 768 pixels (assuming this as the breakpoint for mobile devices)
+        if (window.innerWidth <= 768) {
+            // Redirect to index1.html for mobile devices
+            window.location.href = 'index1.html';
+        } else {
+            // Redirect to index2.html for desktop devices
+            window.location.href = 'index2.html';
+        }
+    }
+    
+    // Call the detectDevice function when the page loads
+    window.onload = detectDevice;
+</script>
+</head>
+<body>
+    <p>Loading...</p>
+</body>
+</html>
